@@ -1,39 +1,55 @@
-.profile-photo {
-    width: 180px;        /* size of photo */
-    height: 180px;
-    border-radius: 50%;  /* makes it circular */
-    object-fit: cover;
-    display: block;
-    margin: 0 auto 20px auto;
-    border: 4px solid #003366;
-}
-
 body {
     font-family: "Times New Roman", Times, serif;
-    margin: 40px;
-    line-height: 1.6;
-    background-color: #e6f2ff;   /* Light blue background */
+    max-width: 1000px;
+    margin: 40px auto;
+    line-height: 1.7;
+    background-color: #e6f2ff;  /* Light blue background */
 }
 
+/* HEADER LAYOUT */
 header {
-    text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
-h1 {
-    margin-bottom: 5px;
-    color: #003366;  /* Dark academic blue */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text h1 {
+    font-size: 42px;   /* Larger name */
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.header-text p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* PROFILE PHOTO TOP RIGHT */
+.profile-photo {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #003366;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* SECTION STYLE */
+section {
+    background: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
 }
 
 h2 {
+    font-size: 24px;
     color: #003366;
+    margin-bottom: 15px;
 }
-
-section {
-    background: white;
-    padding: 25px;
-    margin-bottom: 25px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);  /* Soft shadow */
-}
-
