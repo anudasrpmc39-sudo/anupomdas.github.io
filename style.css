@@ -1,14 +1,15 @@
 body {
     font-family: "Times New Roman", Times, serif;
-    max-width: 1000px;
-    margin: 40px auto;
-    line-height: 1.7;
-    background-color: #e6f2ff;  /* Light blue background */
+    max-width: 850px;              /* narrower content area */
+    margin: 60px auto;             /* wider side margins */
+    line-height: 1.8;              /* slightly larger readability */
+    font-size: 18px;               /* increase overall font size */
+    background-color: #e6f2ff;
 }
 
-/* HEADER LAYOUT */
+/* HEADER */
 header {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .header-container {
@@ -18,38 +19,57 @@ header {
 }
 
 .header-text h1 {
-    font-size: 42px;   /* Larger name */
+    font-size: 46px;               /* larger name */
     font-weight: bold;
     color: #003366;
     margin-bottom: 10px;
 }
 
 .header-text p {
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 0;
 }
 
-/* PROFILE PHOTO TOP RIGHT */
+/* PROFILE PHOTO */
 .profile-photo {
-    width: 170px;
-    height: 170px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #003366;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-/* SECTION STYLE */
+/* NAVIGATION BAR */
+nav {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+nav a {
+    font-size: 20px;               /* larger navigation text */
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px;                /* more spacing between items */
+    padding: 8px 12px;             /* larger clickable area */
+    color: #003366;
+}
+
+nav a:hover {
+    color: #007acc;
+}
+
+/* SECTIONS */
 section {
     background: white;
-    padding: 30px;
-    margin-bottom: 30px;
-    border-radius: 12px;
+    padding: 35px;
+    margin-bottom: 35px;
+    border-radius: 14px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 26px;
     color: #003366;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
