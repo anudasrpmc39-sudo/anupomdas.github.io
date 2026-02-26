@@ -1,3 +1,13 @@
+.profile-photo {
+    width: 180px;        /* size of photo */
+    height: 180px;
+    border-radius: 50%;  /* makes it circular */
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 4px solid #003366;
+}
+
 body {
     font-family: "Times New Roman", Times, serif;
     margin: 40px;
@@ -26,3 +36,4 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);  /* Soft shadow */
 }
+
