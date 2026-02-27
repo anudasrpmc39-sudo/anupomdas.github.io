@@ -1,75 +1,76 @@
+/* BODY BACKGROUND */
 body {
     font-family: "Times New Roman", Times, serif;
-    max-width: 850px;              /* narrower content area */
-    margin: 60px auto;             /* wider side margins */
-    line-height: 1.8;              /* slightly larger readability */
-    font-size: 18px;               /* increase overall font size */
-    background-color: #e6f2ff;
+    margin: 0;
+    background-color: #d6ecff;   /* Light sky blue */
+    line-height: 1.8;
+    font-size: 19px;
 }
 
-/* HEADER */
-header {
-    margin-bottom: 60px;
+/* TOP NAME HEADER */
+.top-header {
+    background-color: #003366;   /* Deep ocean blue */
+    color: white;
+    text-align: center;
+    padding: 25px 0;
 }
 
-.header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-text h1 {
-    font-size: 46px;               /* larger name */
+.top-header h1 {
+    margin: 0;
+    font-size: 48px;
     font-weight: bold;
-    color: #003366;
-    margin-bottom: 10px;
-}
-
-.header-text p {
-    font-size: 20px;
-    margin-top: 0;
-}
-
-/* PROFILE PHOTO */
-.profile-photo {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid #003366;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    letter-spacing: 1px;
 }
 
 /* NAVIGATION BAR */
 nav {
+    background-color: #007acc;   /* Lighter ocean blue */
     text-align: center;
-    margin-bottom: 40px;
+    padding: 15px 0;
 }
 
 nav a {
-    font-size: 20px;               /* larger navigation text */
-    font-weight: bold;
+    color: white;
     text-decoration: none;
-    margin: 0 20px;                /* more spacing between items */
-    padding: 8px 12px;             /* larger clickable area */
-    color: #003366;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 25px;
+    padding: 8px 14px;
+    transition: 0.3s ease;
 }
 
 nav a:hover {
-    color: #007acc;
+    background-color: #005f99;
+    border-radius: 6px;
 }
 
-/* SECTIONS */
+/* MAIN CONTENT AREA */
+.content {
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+/* SECTION STYLE */
 section {
     background: white;
     padding: 35px;
     margin-bottom: 35px;
     border-radius: 14px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
 }
 
 h2 {
-    font-size: 26px;
     color: #003366;
+    font-size: 28px;
     margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+    font-size: 16px;
 }
