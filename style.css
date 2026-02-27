@@ -9,12 +9,13 @@ body {
 
 /* TOP NAME HEADER */
 .top-header {
-    background-color: #003366;   /* Deep ocean blue */
+    background-color: #007acc;   /* Same light ocean blue as menu */
     color: white;
-    text-align: center;
-    padding: 25px 0;
+    padding: 25px 40px;
+    position: relative;         /* Needed for photo positioning */
 }
 
+/* HEADER TITLE */
 .top-header h1 {
     margin: 0;
     font-size: 48px;
@@ -22,9 +23,22 @@ body {
     letter-spacing: 1px;
 }
 
+/* PROFILE PHOTO UPPER RIGHT */
+.top-header img {
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: none;               /* No frame */
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.6); /* soft blurred glow */
+}
+
 /* NAVIGATION BAR */
 nav {
-    background-color: #007acc;   /* Lighter ocean blue */
+    background-color: #007acc;   /* Light ocean blue */
     text-align: center;
     padding: 15px 0;
 }
@@ -67,7 +81,7 @@ h2 {
 
 /* FOOTER */
 footer {
-    background-color: #003366;
+    background-color: #007acc;   /* Match header */
     color: white;
     text-align: center;
     padding: 20px 0;
