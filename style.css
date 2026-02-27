@@ -2,49 +2,50 @@
 body {
     font-family: "Times New Roman", Times, serif;
     margin: 0;
-    background-color: #d6ecff;   /* Light sky blue */
+    background-color: #d6ecff;   /* Light blue everywhere */
     line-height: 1.8;
     font-size: 19px;
 }
 
-/* TOP NAME HEADER */
+/* TOP HEADER */
 .top-header {
-    background-color: #007acc;   /* Same light ocean blue as menu */
-    color: white;
-    padding: 25px 40px;
-    position: relative;         /* Needed for photo positioning */
+    background-color: #d6ecff;   /* Same as body */
+    text-align: center;          /* Center the name */
+    padding: 40px 0;
+    position: relative;          /* For positioning image */
 }
 
 /* HEADER TITLE */
 .top-header h1 {
     margin: 0;
-    font-size: 48px;
+    font-size: 52px;
     font-weight: bold;
+    color: #003366;
     letter-spacing: 1px;
 }
 
-/* PROFILE PHOTO UPPER RIGHT */
+/* PROFILE PHOTO (UPPER RIGHT) */
 .top-header img {
     position: absolute;
     right: 40px;
-    top: 15px;
+    top: 25px;
     width: 130px;
     height: 130px;
     object-fit: cover;
     border-radius: 50%;
-    border: none;               /* No frame */
-    box-shadow: 0 0 25px rgba(255, 255, 255, 0.6); /* soft blurred glow */
+    border: none;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);  /* Soft subtle blur */
 }
 
 /* NAVIGATION BAR */
 nav {
-    background-color: #007acc;   /* Light ocean blue */
+    background-color: #d6ecff;   /* Same as body */
     text-align: center;
     padding: 15px 0;
 }
 
 nav a {
-    color: white;
+    color: #003366;
     text-decoration: none;
     font-size: 22px;
     font-weight: bold;
@@ -54,17 +55,16 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #005f99;
-    border-radius: 6px;
+    text-decoration: underline;
 }
 
-/* MAIN CONTENT AREA */
+/* MAIN CONTENT */
 .content {
     max-width: 900px;
     margin: 60px auto;
 }
 
-/* SECTION STYLE */
+/* SECTIONS */
 section {
     background: white;
     padding: 35px;
@@ -81,10 +81,10 @@ h2 {
 
 /* FOOTER */
 footer {
-    background-color: #007acc;   /* Match header */
-    color: white;
+    background-color: #d6ecff;   /* Same as body */
     text-align: center;
-    padding: 20px 0;
+    padding: 25px 0;
     margin-top: 60px;
     font-size: 16px;
+    color: #003366;
 }
