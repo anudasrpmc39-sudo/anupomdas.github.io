@@ -3,7 +3,7 @@ body {
     font-family: "Times New Roman", Times, serif;
     margin: 0;
     background-color: #d6ecff;   /* Light blue everywhere */
-    line-height: 1.8;
+    line-height: 1;
     font-size: 19px;
 }
 
@@ -106,3 +106,4 @@ footer {
     font-size: 16px;
     color: #003366;
 }
+
