@@ -2,17 +2,17 @@
 body {
     font-family: "Times New Roman", Times, serif;
     margin: 0;
-    background-color: #d6ecff;   /* Light blue everywhere */
+    background-color: #d6ecff;
     line-height: 1.8;
     font-size: 19px;
 }
 
 /* TOP HEADER */
 .top-header {
-    background-color: #d6ecff;   /* Same as body */
-    text-align: center;          /* Center the name */
-    padding: 40px 0;
-    position: relative;          /* For positioning image */
+    background-color: #d6ecff;
+    text-align: center;
+    padding: 60px 0;       /* slightly more space */
+    position: relative;    /* needed for photo positioning */
 }
 
 /* HEADER TITLE */
@@ -24,8 +24,8 @@ body {
     letter-spacing: 1px;
 }
 
-/* PROFILE PHOTO (UPPER RIGHT) */
-.top-header img {
+/* PROFILE PHOTO (TOP RIGHT) */
+.header-photo {
     position: absolute;
     right: 40px;
     top: 25px;
@@ -34,57 +34,5 @@ body {
     object-fit: cover;
     border-radius: 50%;
     border: none;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);  /* Soft subtle blur */
-}
-
-/* NAVIGATION BAR */
-nav {
-    background-color: #d6ecff;   /* Same as body */
-    text-align: center;
-    padding: 15px 0;
-}
-
-nav a {
-    color: #003366;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: bold;
-    margin: 0 25px;
-    padding: 8px 14px;
-    transition: 0.3s ease;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* MAIN CONTENT */
-.content {
-    max-width: 900px;
-    margin: 60px auto;
-}
-
-/* SECTIONS */
-section {
-    background: white;
-    padding: 35px;
-    margin-bottom: 35px;
-    border-radius: 14px;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
-}
-
-h2 {
-    color: #003366;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-/* FOOTER */
-footer {
-    background-color: #d6ecff;   /* Same as body */
-    text-align: center;
-    padding: 25px 0;
-    margin-top: 60px;
-    font-size: 16px;
-    color: #003366;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
